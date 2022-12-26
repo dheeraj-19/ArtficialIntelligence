@@ -1,7 +1,7 @@
 #!/usr/local/bin/python3
 # solver2022.py : 2022 Sliding tile puzzle solver
 #
-# Code by: Dheeraj Manchandia IU ID: dmancha
+# Code by: Dheeraj Manchandia
 #
 # Based on skeleton code by D. Crandall & B551 Staff, Fall 2022
 #
@@ -209,15 +209,7 @@ def h(state):
     
 
 def solve(initial_board):
-    """
-    1. This function should return the solution as instructed in assignment, consisting of a list of moves like ["R2","D2","U1"].
-    2. Do not add any extra parameters to the solve() function, or it will break our grading and testing code.
-       For testing we will call this function with single argument(initial_board) and it should return 
-       the solution.
-    3. Please do not use any global variables, as it may cause the testing code to fail.
-    4. You can assume that all test cases will be solvable.
-    5. The current code just returns a dummy solution.
-    """
+    
     fringe = []
         
     fringe += [((h(initial_board),initial_board), [])]
@@ -243,8 +235,7 @@ def solve(initial_board):
     
     return []
 
-# Please don't modify anything below this line
-#
+
 if __name__ == "__main__":
     if(len(sys.argv) != 2):
         raise(Exception("Error: expected a board filename"))
