@@ -2,7 +2,7 @@
 #
 # arrange_pichus.py : arrange agents on a grid, avoiding conflicts
 #
-# Submitted by : [NAME: Dheeraj Manchandia AND USERNAME: dmancha]
+# Code by : Dheeraj Manchandia
 #
 # Based on skeleton code in CSCI B551, Fall 2022.
 
