@@ -1,7 +1,7 @@
 #!/usr/local/bin/python3
 # solve_birds.py : Bird puzzle solver
 #
-# Code by: Dheeraj Manchandia IU ID: dmancha
+# Code by: Dheeraj Manchandia
 #
 # Based on skeleton code by D. Crandall & B551 course staff, Fall 2022
 #
@@ -46,7 +46,6 @@ def h(state):
 #
 # THE ALGORITHM:
 #
-# This is a generic solver using BFS. 
 #
 def solve(initial_state):
     fringe = []
@@ -66,8 +65,7 @@ def solve(initial_state):
 
     return []
 
-# Please don't modify anything below this line
-#
+
 if __name__ == "__main__":
     if(len(sys.argv) != 2):
         raise(Exception("Error: expected a test case filename"))
