@@ -1,7 +1,7 @@
 #!/usr/local/bin/python3
 # route.py : Find routes through maps
 #
-# Code by: Dheeraj Manchandia IU ID: dmancha
+# Code by: Dheeraj Manchandia
 #
 # Based on skeleton code by V. Mathur and D. Crandall, Fall 2022
 #
@@ -253,7 +253,7 @@ def get_route(start, end, cost):
     """
     Find shortest driving route between start city and end city
     based on a cost function.
-    1. Your function should return a dictionary having the following keys:
+    Your function should return a dictionary having the following keys:
         -"route-taken" : a list of pairs of the form (next-stop, segment-info), where
            next-stop is a string giving the next stop in the route, and segment-info is a free-form
            string containing information about the segment that will be displayed to the user.
@@ -263,10 +263,6 @@ def get_route(start, end, cost):
         -"total-hours": a float indicating total amount of time in the route-taken
         -"total-delivery-hours": a float indicating the expected (average) time 
                                    it will take a delivery driver who may need to return to get a new package
-    2. Do not add any extra parameters to the get_route() function, or it will break our grading and testing code.
-    3. Please do not use any global variables, as it may cause the testing code to fail.
-    4. You can assume that all test cases will be solvable.
-    5. The current code just returns a dummy solution.
     """
     
     road_segments = []
@@ -296,8 +292,6 @@ def get_route(start, end, cost):
             "route-taken" : route_taken}
 
 
-# Please don't modify anything below this line
-#
 if __name__ == "__main__":
     if len(sys.argv) != 4:
         raise(Exception("Error: expected 3 arguments"))
