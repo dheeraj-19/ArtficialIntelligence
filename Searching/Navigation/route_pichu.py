@@ -2,7 +2,7 @@
 #
 # route_pichu.py : a maze solver
 #
-# Submitted by : [NAME: Dheeraj Manchandia AND USERNAME: dmancha]
+# Code by : Dheeraj Manchandia
 #
 # Based on skeleton code provided in CSCI B551, Fall 2022.
 
